@@ -16,7 +16,7 @@
                 <a href="mascota_menu.php"><button class="btn btn-secondary">VOLVER</button></a>
             </div>
             <div class="col-6">
-                <a href="borrar_mascota.php?id=<?php echo($id); ?>"><button class="btn btn-primary">ELIMINAR</button></a>
+                <a href="./back/borrar_mascota.php?id=<?php echo($id); ?>"><button class="btn btn-primary">ELIMINAR</button></a>
             </div>
         </div>
     </div>

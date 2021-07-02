@@ -4,7 +4,7 @@
 <div class = "d-flex flex-column justify-content-center align-items-center col-12 pd-top2">
     <div class = "d-flex flex-column justify-content-center align-items-center bg-beige col-md-6 col-sm-12 rounded">
     <h2 class="pd-10 font-weight-bold text-uppercase">Ingresa</h2>
-    <form action="redLogin.php?key=login" method="POST">
+    <form action="./back/redLogin.php?key=login" method="POST">
             <!-- Email input -->
             <div class="form-outline mb-4">
                 <input type="email" id="correo" class="form-control" placeholder="patas@gmail.com" name="correo"/>

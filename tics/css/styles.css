@@ -1,0 +1,79 @@
+.body{
+  height: 100%;
+  background-image: url('../imagenes/fondo3.jpg');
+  background-color: rgba(0, 0, 0, 0);
+  background-position:center;
+  background-repeat: repeat;
+  background-size:initial;
+  font-family: 'Ubuntu', sans-serif;
+  }
+  .abs-center {
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    flex-direction: column;
+  }
+  .bg-beige{
+    background-color: rgba(255, 255, 255, 0.9);;
+ 
+  }
+  .pd-top {
+    padding-top: 0%;
+  }
+  .pd-10{
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .pd-top2 {
+    padding-top: 10vh;
+  }
+  .pd-top3 {
+    padding-top: 2vh;
+  }
+  .h300{
+      height: auto;
+  }
+  .h270{
+      height: 200px;
+  }
+  .oppa{
+    opacity: 0.7;
+  }
+  .bg-green{
+    background: rgb(5,56,1);
+    background: linear-gradient(90deg, rgba(5,56,1,0.9) 17%, rgba(40,133,2,0.5) 58%, rgba(5,56,1,0.9) 97%);
+  }
+  .bg-blue{
+    background: rgb(56, 1, 56);
+    background: linear-gradient(90deg, rgba(224, 0, 138, 0.9) 17%, rgba(252, 128, 235, 0.5) 58%, rgba(56, 1, 18, 0.9) 97%);
+  }
+  .bg-yellow{
+    background: rgb(170,118,0);
+    background: linear-gradient(90deg, rgba(170,118,0,0.9) 17%, rgba(182,165,1,0.5) 59%, rgba(170,118,0,0.9) 97%);
+  }
+  .texto-borde {
+    -webkit-text-stroke: 0.1px white;
+    color: black; 
+  }
+  .bg-black{
+      height: 80%;
+      background-color: rgba(255, 251, 251, 0.7);
+  }
+  .bg-black2{
+    margin-left: 150px;
+    text-align: center;
+    width: 200px;
+    background-color: rgba(255, 251, 251, 0.5);
+}
+.header .navbar {
+    background-color: rgba(255, 255, 255, 0.7) !important
+  }
+.img_mascota{
+    width: 140px;
+    height: 130px;
+}
+.bg-black3{
+    background-color: rgba(255, 251, 251, 0.9);
+}
+.lol300{
+  height: 500px;
+}

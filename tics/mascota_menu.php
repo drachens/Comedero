@@ -1,7 +1,7 @@
 <?php
     include_once("header.php");
     include_once("navbar.php");
-    include_once("conexion.php");
+    include_once("./back/conexion.php");
     $rut = $_SESSION["rut"];
     $nombre = $_SESSION["nombreUs"];
 
@@ -17,7 +17,7 @@
         <div class="d-flex flex-row bd-highlight justify-content-center align-items-center">
             <div class="d-flex p-2 bd-highlight col-3 mt-2  ">
                 <div class="justify-content-center align-items-center">
-                    <img class="img_mascota" src=<?php print("'".$row["foto"]."'");?>>
+                    <img class="img_mascota" src=<?php print("'./imagenes/".$row["foto"]."'");?>>
                 </div>
             </div>
             <div class="p-2 bd-highlight col-9 ml-2">

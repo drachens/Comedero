@@ -36,7 +36,15 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <p class="m-b-10 f-w-600">Most Viewed</p>
-                                        <h6 class="text-muted f-w-400">Dinoter husainm</h6>
+                                        <h6 class="text-muted f-w-400"><?php
+                                        if($_SESSION["rut"]){
+                                            print("existe");
+                                        }
+                                        else{
+                                            print("no existe");
+                                        }
+                                        
+                                        ?></h6>
                                     </div>
                                 </div>
                                 <ul class="social-link list-unstyled m-t-40 m-b-10">
@@ -52,7 +60,7 @@
         </div>
     </div>
 </div>
-    <a href="redLogin.php?key=cerrar"><button class="btn btn-primary">Cerra Sesion</button></a>
+    <a href="./back/redLogin.php?key=cerrar"><button class="btn btn-primary">Cerra Sesion</button></a>
 <?php
     include_once("footer.php");
 ?>

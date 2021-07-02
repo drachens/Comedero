@@ -4,7 +4,7 @@
  <div class = "d-flex flex-column justify-content-center align-items-center col-12 pd-top2 ">
     <div class = "d-flex flex-column justify-content-center align-items-center bg-beige col-md-6 col-sm-12 rounded">
         <h2 class="pd-10 font-weight-bold text-uppercase">Registrate</h2>
-        <form action="redRegister.php" method="POST">
+        <form action="./back/redRegister.php" method="POST">
             <!-- 2 column grid layout with text inputs for the first and last names -->
             <div class="row mb-4">
                 <div class="col">
